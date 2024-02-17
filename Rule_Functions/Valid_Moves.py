@@ -2,6 +2,9 @@
 # this will serve as a method of evaluating the game space for all valid moves
 # returned item will be a list of valid moves
 
+# WARNING - THIS DOES NOT CONTAIN THE ABILITY TO RESTRICT MOVES WHICH MIMIC THE PRIOR MOVE STATE
+# ADD THAT AS A SEPERATE CONTROL LATER ON.
+
 def calculate_valid_moves(board_state, max_size, piece_colour):
     # base input is the dictionary board_state.
     # max size added to search for invalid positions
