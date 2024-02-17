@@ -30,6 +30,7 @@ def calculate_valid_moves(board_state, max_size, piece_colour):
         # ADDENDUM : this *technically* only applies if it would have no liberties after the move
         # for now, add the liberties logic. Then, add a function for capturing
         # then, for each move, add a check for capture logic, and apply this here
+        # probs best done via adding invalid moves to a list, and calculating each of them.
         #liberties would be defined as having all *valid* adjacent points occupied by an enemy
         true_valid_moves = []
         for checkval in prelim_valid_moves:
