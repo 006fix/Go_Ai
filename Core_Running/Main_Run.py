@@ -24,4 +24,3 @@ for i in range(1,20):
 #test_df = pd.DataFrame(board_space, index=[0])
 # test complete, works as intended. i might need to modify this to pass in a index based on turn count.
 # print(test_df.head(5))
-
